@@ -1,4 +1,4 @@
-# How to Hack Jet Lag with 4 Simple Tools
+# Hack Jet Lag with 4 Simple Tools
 
 ## Introduction
 
@@ -30,7 +30,8 @@ As difficult as it might be, it’s critically important to avoid real sleep dur
 My personal preferences are:
 
 * **Sublingual melatonin** as a gentle sleep aid. I take 3mg about 1 hour before it’s time to sleep.
-Actifed (or a similar drowsiness-inducing antihistamine) as a not-so-gentle sleep aid. I take it when it’s clear that I won’t be able sleep any other way.
+
+* **Actifed** (or a similar drowsiness-inducing antihistamine) as a not-so-gentle sleep aid. I take it when it’s clear that I won’t be able sleep any other way.
 
 * **Strong coffee** to stay awake during the day time. I use it ruthlessly in the morning to help me avoid the typical jet lag crash during the day. However, I’m careful to taper off early in the day so that it doesn’t interfere with my sleep that night.
 
