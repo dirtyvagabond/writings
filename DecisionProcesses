@@ -1,0 +1,74 @@
+---
+
+Engineering and Decisions: ‘What’ Is Not As Important As ‘How’
+
+In 22 years as a professional software developer at a variety of companies, I’ve seen disastrous decisions, superb decisions, and everything in between. 
+While good decisions are essential, I’ve learned that how an organization makes its decisions is even more important than what decisions it makes.
+Engineers who care about their craft naturally adopt tools that promote good decision processes. We have blameless postmortems. We have design reviews, code reviews, and pull requests. The original ARPANET project gave birth to RFCs, which we’ve happily adopted on an informal basis.
+For a concrete and robust example of good engineering values meeting good decision making process, consider what GitHub offers…
+GitHub as a cornucopia
+Github gave themselves the moniker, “social coding”. They could just as well have written, “good decision process in a box”.
+When we share  a software project on GitHub we automatically start with best-of-breed tools for good decision processes. 
+Every commit is visible to everyone —  immediately and forever —  as is every line of source code. There’s an open ticketing system for questions, comments, suggestions, and complaints. There’s a mature & highly effective pull request system for contributions and code reviews. We get a wiki system for collaborative documentation.
+These tools, used together, give us a powerful foundation upon which we can base good decisions over the lifespan of a software project. 
+We can distill this embarrassment of riches down to three core functions that any good decision process must serve:
+Welcome stakeholders: Those impacted by a decision should be graciously invited into the process. Inclusion.
+Be clear & equitable: The process should provide relevant data in a timely fashion along with a predictable lifecycle and a reasonable evaluation criteria. Transparency.
+Produce a fair outcome: Of course the outcome of a decision should be as fair as reasonably possible for those affected by the decision.
+
+Any good decision process should provide the above, otherwise it cannot properly support stakeholders.
+Failure vs. success
+What’s the cost of a poor decision process? It can be measured many ways, including, of course, any damage done by a bad decision. But I like to weigh the morale of the stakeholders as a key performance indicator.
+The worst case of a bad process is easy to imagine (and sadly, we’ve all been there): exclude stakeholders, fail to be transparent, and arrive at a poor decision. Obviously, people will be upset by the decision and also quite bitter about the process.
+But now let’s consider a bad process that actually arrives at a good decision: Stakeholders may tolerate the decision itself, but some will be bitter about the process.
+(“Why wasn’t I consulted?” … “Are you sure we couldn’t have done something better?” … “I don’t understand why you didn’t just do such-and-such.” And so on.)
+Bitterness towards the process can be a strong motivator for poor behaviour. It’s not uncommon for disappointment around the quality of a decision process to provoke passive aggressive attitudes and even a burning desire to punish the owners of the process.
+On the other hand, the common worst case with a good decision process is: Some amount of people may be disappointed in the decision but also empathetic.
+They’ll be empathetic because they witnessed how the decision was made. They saw the competing interests and difficult trade-offs. While the decision may not be the one they preferred on their way in, they came out the other side with an understanding of how the decision landed the way it did.
+Often enough, with such empathy, they’ll be able to live with the decision and maybe even be an active advocate.
+“When one is allowed to genuinely participate in a decision process, one tends to own the resulting decision.” — any smart leader
+Here, then, is the price we pay for a poor decision process: Stakeholders will be unhappy and rebellious — in an infinite variety of forms — even when the decision is a good one.
+On the other hand, when we invest in a good decision process: Stakeholders will be empathetic — perhaps even gracious — even when the decision is a tough one.
+Some options
+As we practice designing good decision processes we have a multitude of options and variations available to us.
+As one example, the United States is a representative democratic republic. At the federal level, we vote to elect representatives who then make decisions on our behalf. Many other governments on Earth practice similar approaches.
+This kind of representation is also a common mechanism for companies — you choose (or have chosen for you) a boss who is then expected to represent your interests to higher layers of management.
+However, a good decision process does not need to resemble a democracy or even a representative democracy. True, vote counting and representation can be effectual in many situations. However, we should have more tools in our toolbox.
+In 1995 Guido van Rossum, the creator of Python, was designated by the Python community as the project’s “benevolent dictator for life” (BDFL). Since then a cadre of others have been similarly dubbed BDFL by their respective communities.
+These communities recognize their leaders as particularly good decision makers. Their decisions — even in the face of difficult and complex trade-offs — are seen as inclusive, transparent, and fair. Assuming the stakeholders are in strong support, it can make practical sense to offer dictatorial power to these benevolent owners.
+So we can see there are various mechanisms for a good decision process. Our job is to find the right ones for a given situation and wield them appropriately.
+You the user
+When you are welcomed into a decision process you have some heavy responsibilities, including but not limited to:
+Be open to learning and be careful about judging too early. Other stakeholders may see things differently than you and perhaps reasonably so. As Steven Covey taught us: “Seek First to Understand, Then to Be Understood.”
+Include yourself. It’s self-defeating to sit on the sidelines in silence and then be grumpy about a decision later. It’s important that other stakeholders have a chance to hear your point of view. Share what you know.
+Disagree and commit. Assuming it was a good process and a fair decision, you now have an obligation to support the outcome — even if it wasn’t your top preference. Buy-in.
+
+A surfer story
+The 2012 documentary “Storm Surfers 3D” follows world class big wave tow-in surfers Ross Clarke Jones and Tom Carroll as they hunt massive waves to ride.
+Early in the movie there’s a harrowing scene involving a life threatening mishap. Tom tows Ross into a wave but Tom’s timing is off.  He’s dragged over the falls along with the jet ski. That’s over 900 pounds of hardware dragging Tom into a giant washing machine, all bearing down on Ross.
+Screenshot from “Storm Surfers 3D”Both surfers are rescued and boated back to shore, no injuries. But Ross is upset. He pointedly tells Tom, “I want to know what happened”.
+This leads to an open hearted back-and-forth. Both surfers share their viewpoint, ask questions, and clarify. These two have worked together for decades. You can tell they love each other and trust each other deeply. 
+As they figure it out together, the tension evaporates. They start smiling and joking. Ross asks Tom, “So, you ready to destroy another jet ski?”
+This is a big wave tow-in surfing version of a healthy engineering postmortem. This is what we do at work when something big goes wrong. 
+Once the crisis is averted, the stakeholders gather to compare notes on exactly what happened. It’s a decision process… What did we learn? What should we change? What would we do differently if this were to happen again?
+
+
+---
+
+Later in the movie Ross and Tom debate whether to try for Turtle Dove Shoal. The location is 55 miles off the coast of Western Australia. They’ve heard rumours of giant waves with the right conditions but no one has ever attempted to ride them.
+This would be the most expensive and dangerous trip either surfer has ever attempted.
+Ross and Tom gather with their dedicated surf forecaster Ben Matson. They video conference in a second forecaster, Paul “Antman” Paterson.
+Screenshot from “Storm Surfers 3D” showing a good decision process. From left to right: Ross, Tom, Ben, AntmanWatching this scene, it’s immediately obvious that it’s a good decision process:
+All stakeholders are present. Everyone is engaged in the discussion, asking questions, bringing up risks, playing devil’s advocate, and expressing their points of view. (Ross asks Tom, “Are you ready to put your life and your money on this?”)
+Pertinent data, in the form of charts and an open laptop, is on the table for everyone to analyze. 
+The final decision (go or no go) will be fair — neither Tom nor Ross are going to agree to do something they don’t want to do.
+
+Later we learn that Ross, Tom, and their team decided to do the mission. We see a spectacular series of rides, including successful tow-ins by both surfers. They became among the first humans to surf Turtle Dove.
+Ross killing it at Turtle Dove after a tow-in from Tom. Good decision processes support great teams.Go decide!
+Whether you’re the owner of a decision or a stakeholder in the outcome, you should care deeply about the quality of the process.
+A good process may incorporate a variety of proven mechanisms, such as representational democracy or benevolent dictators.
+Evaluate the quality of a decision process based on inclusion, transparency, and fairness of outcome. 
+Postmortem a decision process by measuring the morale of the stakeholders after the decision is made.
+With a poor process you may arrive at good decisions but people will still be bitter. With a good process you may arrive at tough decisions but people will still buy-in.
+Poor processes can be highly damaging, while good processes can support great teams.
+Now go have some good decision processes!
